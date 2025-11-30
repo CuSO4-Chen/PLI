@@ -8,4 +8,4 @@
 # 📣 News
 - **[20/August/2025]** 🎉 Our paper is accepted by **EMNLP 2025 Main Conference(The 2025 Conference on Empirical Methods in Natural Language Processing)**!
 
-Thank you for your attention to our work! We will supplement our code and data within 1-1.5 months (guaranteed), please wait a little.
+Thank you for your attention to our work! We will supplement our code and data soon, please wait a little.
