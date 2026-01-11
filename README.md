@@ -14,4 +14,19 @@
 # 📣 News
 - **[20/August/2025]** 🎉 Our paper is accepted by **EMNLP 2025 Main Conference(The 2025 Conference on Empirical Methods in Natural Language Processing)**!
 
-Thank you for your attention to our work! We will supplement our code and data soon, please wait a little.
+
+## Table of contents
+
+- [Overview](#overview)
+- [Quick start](#quick-start)
+- [Acknowledgement](#acknowledgement)
+- [Citation](#citation)
+
+## Overview
+we propose **PLI** (**P**remature **L**ayers **I**nterpolation), a novel, training-free, and plug-and-play intervention designed to enhance factuality. PLI mitigates hallucinations by inserting premature layers formed through mathematical interpolation with adjacent layers. Inspired by stable diffusion and sampling steps, PLI extends the depth of information processing and transmission in LLMs, improving factual coherence. Experiments on four publicly available datasets demonstrate that PLI effectively reduces hallucinations while outperforming existing baselines in most cases. Further analysis suggests that the success of layer interpolation is closely linked to LLMs’ internal mechanisms.
+
+<p align="center">
+  <img alt="intro" src="assets/framework.pdf" />
+</p>
+
+
