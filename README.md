@@ -27,6 +27,39 @@ we propose **PLI** (**P**remature **L**ayers **I**nterpolation), a novel, traini
 
 <p align="center">
   <img alt="intro" src="assets/framework.png" />
+  <i>
+  The overview of PLI framework.
+  </i>
 </p>
 
+## Quick Start
+
+#### Environment
+```bash
+conda create -n icd python==3.10
+conda activate pli
+pip install -r requirements.txt
+unzip transformers.zip
+cd ./transformers
+pip install --editable ./
+```
+#### Run
+For experiments on TruthfulQA (or FACTOR, simliarly), please try:
+```sh
+cd ./exp_scripts
+sh base_pli_truthfulqa.sh
+```
+
+For experiments on GSM8K (or StrategyQA, simliarly), please try:
+```sh
+cd ./exp_scripts
+sh base_pli_gsm8k.sh
+```
+
+#### How to conduct experiments with more variations
+Our core code is in PLI/src/decoding_algorithm/pli.py:
+```python
+class InterpolatedLayer
+# categories: spherical_interpolation, log_space_interpolation, bezier_interpolation
+```
 
