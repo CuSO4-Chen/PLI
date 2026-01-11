@@ -61,5 +61,45 @@ Our core code is in PLI/src/decoding_algorithm/pli.py:
 ```python
 class InterpolatedLayer
 # categories: spherical_interpolation, log_space_interpolation, bezier_interpolation
+
+def extend_model_with_interpolation(model, layer_index, alpha)
+
+self.model = extend_model_with_interpolation(self.model, layer_index=28, alpha=0.9)
+self.model = extend_model_with_interpolation(self.model, layer_index=23, alpha=0.8)
 ```
 
+For simplicity and experiment iteration, you can try modifying or copying the above code in **pli.py** to efficiently achieve multiple PLI operations or mixed categories of PLIs.
+
+## Acknowledgement
+The codebase is built upon [ICD](https://github.com/HillZhang1999/ICD) and [DoLa](https://github.com/voidism/DoLa).
+We express our gratitude to these open-source projects.
+
+## Citation
+If you are interested in our work, please cite:
+```bibtex
+@inproceedings{chen-etal-2025-expanding,
+    title = "Expanding before Inferring: Enhancing Factuality in Large Language Models through Premature Layers Interpolation",
+    author = "Chen, Dingwei  and
+      Liu, Ziqiang  and
+      Fang, Feiteng  and
+      Leong, Chak Tou  and
+      Ni, Shiwen  and
+      Argha, Ahmadreza  and
+      Alinejad-Rokny, Hamid  and
+      Yang, Min  and
+      Li, Chengming",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.645/",
+    doi = "10.18653/v1/2025.emnlp-main.645",
+    pages = "12770--12785",
+    ISBN = "979-8-89176-332-6",
+}
+```
