@@ -2,8 +2,8 @@
 
 <div align="center"> 
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?style=flat-square&logo=arxiv)]([https://arxiv.org/abs/2601.04767](https://arxiv.org/abs/2506.02973))
-[![Paper]([https://img.shields.io/badge/Paper-Hugging%20Face-yellow?style=flat-square&logo=huggingface](https://2025.emnlp.org/assets/images/logos/emnlp_2025_logo_v1.png))]([https://huggingface.co/papers/2601.04767](https://aclanthology.org/2025.emnlp-main.645/))
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2506.02973)
+[![Paper](https://2025.emnlp.org/assets/images/logos/emnlp_2025_logo_v1.png)](https://aclanthology.org/2025.emnlp-main.645/)
 <!-- [![](https://raw.githubusercontent.com/SwanHubX/assets/main/badge2.svg)](https://swanlab.cn/@yux1ang/Tree-GRPO/overview) -->
 
 </div>
