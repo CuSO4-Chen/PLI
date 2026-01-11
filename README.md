@@ -4,7 +4,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-b5212f.svg?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2506.02973)
 <a href="https://aclanthology.org/2025.emnlp-main.645/">
-  <img src="https://2025.emnlp.org/assets/images/logos/emnlp_2025_logo_v1.png" width="90" style="vertical-align:middle">
+  <img src="https://2025.emnlp.org/assets/images/logos/emnlp_2025_logo_v1.png" width="200" style="vertical-align:middle">
 </a>
 <!-- [![](https://raw.githubusercontent.com/SwanHubX/assets/main/badge2.svg)](https://swanlab.cn/@yux1ang/Tree-GRPO/overview) -->
 
