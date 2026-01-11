@@ -34,7 +34,7 @@ we propose **PLI** (**P**remature **L**ayers **I**nterpolation), a novel, traini
 
 ## Quick Start
 
-#### Environment
+### Environment
 ```bash
 conda create -n icd python==3.10
 conda activate pli
@@ -43,7 +43,7 @@ unzip transformers.zip
 cd ./transformers
 pip install --editable ./
 ```
-#### Run
+### Run
 For experiments on TruthfulQA (or FACTOR, simliarly), please try:
 ```sh
 cd ./exp_scripts
@@ -56,7 +56,7 @@ cd ./exp_scripts
 sh base_pli_gsm8k.sh
 ```
 
-#### How to conduct experiments with more variations
+### How to conduct experiments with more variations
 Our core code is in PLI/src/decoding_algorithm/pli.py:
 ```python
 class InterpolatedLayer
