@@ -79,19 +79,8 @@ If you are interested in our work, please cite:
 ```bibtex
 @inproceedings{chen-etal-2025-expanding,
     title = "Expanding before Inferring: Enhancing Factuality in Large Language Models through Premature Layers Interpolation",
-    author = "Chen, Dingwei  and
-      Liu, Ziqiang  and
-      Fang, Feiteng  and
-      Leong, Chak Tou  and
-      Ni, Shiwen  and
-      Argha, Ahmadreza  and
-      Alinejad-Rokny, Hamid  and
-      Yang, Min  and
-      Li, Chengming",
-    editor = "Christodoulopoulos, Christos  and
-      Chakraborty, Tanmoy  and
-      Rose, Carolyn  and
-      Peng, Violet",
+    author = "Chen, Dingwei and Liu, Ziqiang and Fang, Feiteng and Leong, Chak Tou and Ni, Shiwen and Argha, Ahmadreza and Alinejad-Rokny, Hamid and Yang, Min and Li, Chengming",
+    editor = "Christodoulopoulos, Christos and Chakraborty, Tanmoy and Rose, Carolyn and Peng, Violet",
     booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
     month = nov,
     year = "2025",
