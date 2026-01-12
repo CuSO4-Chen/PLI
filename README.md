@@ -36,7 +36,7 @@ we propose **PLI** (**P**remature **L**ayers **I**nterpolation), a novel, traini
 
 ### Environment
 ```bash
-conda create -n icd python==3.10
+conda create -n pli python==3.10
 conda activate pli
 pip install -r requirements.txt
 unzip transformers.zip
